@@ -9,7 +9,7 @@ function App() {
   const [array, setArray] = useState<number[]>([]);
   const [sorting, setSorting] = useState(false);
   const [algorithm, setAlgorithm] = useState<Algorithm>('linkedlist');
-  const [speed, setSpeed] = useState(1500);
+  const [speed, setSpeed] = useState(2000);
   const [inputValue, setInputValue] = useState('');
   const [currentStep, setCurrentStep] = useState('');
   const [linkedList] = useState(new LinkedList());
